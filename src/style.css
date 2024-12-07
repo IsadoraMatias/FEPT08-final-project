@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 /* Aquí clases css si quiero y la directiva @apply de tailwind parara agrupar clases*/
+
+.montserrat-title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
