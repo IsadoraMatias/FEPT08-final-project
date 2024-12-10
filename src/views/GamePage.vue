@@ -1,4 +1,4 @@
-
+<!-- 
 <template>
     <div>
         <h2>{{ counter.name }}</h2>
@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { useCounterStore } from '../stores/counter';
+import { useCounterStore } from '../stores/NewsStore';
 export default {
     name: "GamePage",
     data(){
@@ -23,4 +23,18 @@ export default {
 }
 </script>
 
-<style ></style>
+<style ></style> -->
+
+<template>
+    <div>
+        
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style>
+    
+</style>
