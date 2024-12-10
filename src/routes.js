@@ -1,16 +1,16 @@
 import { createWebHashHistory, createRouter } from "vue-router";
 
 import Home from "./views/Home.vue";
-import Blog from "./views/Blog.vue";
-import News from "./views/News.vue";
-import Game from "./views/Game.vue";
+import BlogPage from "./views/BlogPage.vue";
+import NewsPage from "./views/NewsPage.vue";
+import GamePage from "./views/GamePage.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
     { path: "/home", name: "Home", component: Home },
-    { path: "/blog", name: "Blog", component: Blog },
-    { path: "/news", name: "News", component: News },
-    { path: "/game", name: "Game", component: Game },
+    { path: "/blog", name: "BlogPage", component: BlogPage },
+    { path: "/news", name: "NewsPage", component: NewsPage },
+    { path: "/game", name: "GamePage", component: GamePage },
 ];
 const router = createRouter({
     history: createWebHashHistory(),
