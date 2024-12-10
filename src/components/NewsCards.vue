@@ -28,7 +28,16 @@ methods: {
 </template>
 <script>
 export default {
-    
+    name: "NewsCards",
+    data(){
+        return{}
+    },
+    computed:{
+
+    },
+    methods:{
+        
+    }
 }
 </script>
 <style lang="">
