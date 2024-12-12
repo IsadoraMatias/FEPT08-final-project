@@ -4,12 +4,14 @@
       News!</h1>
     <p v-if="loading">Loading...</p>
     <p v-if="error">Sorry, this news is unavaible</p>
+    <NewsCards />
   </div>
 </template>
 
 <script>
 import { useNewsStore } from '../stores/NewsStore.js';
 import NewsCards from '../components/NewsCards.vue';
+
 
 export default {
   name: "NewsPage",
