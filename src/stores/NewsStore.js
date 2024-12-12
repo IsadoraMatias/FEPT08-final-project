@@ -20,7 +20,7 @@ export const useNewsStore = defineStore("news", {
       try {
         this.loading = true;
         this.error = false;
-        console.log("API Key:", import.meta.env.VITE_API_KEY);
+        
 
         const response = await fetch(
           `https://newsapi.org/v2/everything?q=women+in+technology&sortBy=publishedAt&pageSize=30&apiKey=${
