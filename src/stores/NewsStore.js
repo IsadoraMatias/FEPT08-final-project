@@ -28,7 +28,7 @@ export const useNewsStore = defineStore("news", {
           }`
         );
 
-        //Checking if the api call is working
+        //Comprobando si la llamada a la API está funcionando
         console.log(response);
 
         if (!response.ok) {
