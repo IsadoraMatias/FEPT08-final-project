@@ -14,4 +14,4 @@ library.add(faBars)
 
 createApp(App)
   .use(router)
-  .use(pinia).mount('#app').component('font-awesome-icon', FontAwesomeIcon) 
+  .use(pinia).component('font-awesome-icon', FontAwesomeIcon).mount('#app'); 
