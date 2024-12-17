@@ -8,26 +8,26 @@
 
       <!-- item game -->
       <div class="flex flex-wrap gap-6 justify-between"><div
-          class="bg-white text-custom-purple-dark rounded-lg shadow-lg p-4 w-full sm:w-1/3 flex flex-col justify-center items-center">
-        <h1 class="text-2xl text-custom-purple-dark font-bold mb4">¡Bienvenida!</h1>
-            <p class="text-lg text-custom-purple-dark font-bold mb4">Aquí verás lo básico de la interacción en páginas web. Usa los botones para cambiar el color, la forma y animar la figura, viendo cómo pequeños cambios la transforman</p></div>
+          class="bg-white text-custom-purple-dark rounded-lg shadow-lg p-4 w-full sm:w-1/3 flex flex-col justify-center items-center mb-4">
+        <h1 class="text-2xl text-custom-purple-dark font-bold">¡Bienvenida!</h1>
+            <p class="text-lg text-custom-purple-dark font-bold">Aquí verás lo básico de la interacción en páginas web. Usa los botones para cambiar el color, la forma y animar la figura, viendo cómo pequeños cambios la transforman</p></div>
         <!-- item forma -->
         <div
-          class="bg-white text-custom-purple-dark rounded-lg shadow-lg p-4 w-full sm:w-1/3 flex flex-col justify-center items-center">
+          class="bg-white text-custom-purple-dark rounded-lg shadow-lg p-4 w-full sm:w-1/3 flex flex-col justify-center items-center mb-4">
           <GeometricGame :isColor="gameStore.isColor" :isRounded="gameStore.isRounded"
             :isAnimated="gameStore.isAnimated" />
         </div>
         <!-- item controles -->
         <div>
           <!-- controles del juego -->
-          <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col justify-center items-center flex-1">
+          <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col justify-center items-center mb-4">
             <h2 class="text-2xl text-custom-purple-dark font-bold mb4">Controles</h2>
             <p class="text-lg text-center text-gray-600 font-bold mb-6">Use os botoes para controlar estilos</p>
             <button class="bg-purple-300 text-custom-purple-dark font-bold py-2 px-4 rounded mb-4"
               @click="gameStore.changeColor">Mudar Cor</button>
-            <button class="bg-custom-green text-custom-purple-dark font-bold py-2 px-4 rounded mb-4"
+            <button class="bg-custom-green text-custom-purple-dark font-bold py-2 px-4 rounded mb-2"
               @click="gameStore.roundedShape">Arredondar</button>
-            <button class="bg-custom-pink text-custom-purple-dark font-bold py-2 px-4 rounded mb-4"
+            <button class="bg-custom-pink text-custom-purple-dark font-bold py-2 px-4 rounded mb-2"
               @click="gameStore.animatedShape">Animar</button>
           </div>
         </div>
@@ -84,15 +84,15 @@ export default {
   methods: {
     //botón cambia la color
     changeColor() {
-      this.gamestore.changeColor();
+      this.gameStore.changeColor();
     },
     //botón cambia la forma
     roundedShape() {
-      this.gamestore.roundedShape();
+      this.gameStore.roundedShape();
     },
     //botón de animación
     animatedShape() {
-      this.gamestore.animatedShape();
+      this.gameStore.animatedShape();
     }
   }
 

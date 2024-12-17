@@ -17,9 +17,11 @@
 
       <!-- item contact -->
       <div class="col-span-6 row-span-1 rounded-3xl bg-custom-yellow flex drop-shadow-md justify-center items-center">
-        <h3 class="text-5xl text-custom-purple-dark montserrat-title" id="contact-item">
+        <a href="https://github.com/IsadoraMatias" target="_blank">
+          <h3 class="text-5xl text-custom-purple-dark montserrat-title" id="contact-item">
           Contact me!
         </h3>
+        </a>
       </div>
 
       <!-- item gif
@@ -52,8 +54,10 @@
       <div
         class="col-span-4 row-span-2 rounded-3xl bg-custom-purple drop-shadow-md cursor-pointer hover:scale-70 active:scale-95 transition-transform duration-200"
         id="blog-item" @click="goToBlog">
-        blog
-      </div>
+        <div class="flex justify-center items-center h-full">
+          <img src="/animation.gif" alt="Blog image"/></div>
+       </div>
+    
 
       <!-- item codegrl -->
       <div class="col-span-6 row-span-2 rounded-3xl bg-custom-yellow drop-shadow-md flex justify-center items-center">
