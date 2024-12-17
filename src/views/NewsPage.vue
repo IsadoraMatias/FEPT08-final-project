@@ -2,7 +2,7 @@
   <div>
     <!-- <h1 class="text-custom-purple-dark montserrat-title text-3xl justify-center items-center">¡Bienvenida a la nuestra
       News!</h1> -->
-    <p v-if="loading"><img src="/public/loading.gif" alt="Loading"></p>
+    <p v-if="loading">Loading</p>
     <p v-if="error">Sorry, this news is unavaible</p>
     <NewsCards />
   </div>
