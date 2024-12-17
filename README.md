@@ -80,6 +80,10 @@ Feel free to ask if you need more details or adjustments!
 
 **If you have any questions, suggestions, or just want to reach out, feel free to contact me through the following platforms:**
 
-- ![Email](https://img.shields.io/badge/Email-izzadora@outlook.com-brightgreen)
-- ![GitHub](https://img.shields.io/badge/GitHub-IsadoraMatias-%23121011)
-- ![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/isadoramatias/-%230077B5)
+
+- [![GitHub Badge](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IsadoraMatias)
+-  [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isadoramatias/)
+- [![Email Badge](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:izzadora@outlook.com)
+
+
+
