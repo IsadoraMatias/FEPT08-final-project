@@ -20,10 +20,10 @@
 //   });
   return {
     borderRadius: this.isRounded ? '50%' : '0%',
-    transform: this.isAnimated ? 'translateX(200px)' : 'none',
-    transition: 'transform 0.5s ease',
-    width: '150px',
-    height: '150px',
+    transform: this.isAnimated ? 'translateX(150px)' : 'none',
+    transition: 'transform 0.8s ease',
+    width: '120px',
+    height: '120px',
   };
 }
 
